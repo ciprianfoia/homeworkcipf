@@ -1,0 +1,39 @@
+3.Consider modelling a sports cars. It should contain relevant information about a sports car. Be creative! You no
+
+longer need to use those properties which are general enough to apply on any type of car.
+
+
+
+a.Create a method inside the SportsCar class which has the following signature:
+
+public String toString() 
+
+It returns a String which includes relevant information about the car (manufacturer, model, etc).
+
+Create another method with the following signature:     
+
+b.public boolean equals(SportsCar another)    
+
+It returns true if the 2 cars have at least 3 equal attributes (of your choice); otherwise, it returns false 
+
+c.Create a *public* class called SportsCarTest.
+
+This includes the main() method where we create an array of SportsCar, initialize it with some values 
+
+(we create instances of SportsCar with the "new" operator) and verifies whether there are at least 2 
+
+elements in the array which are equal.
+
+
+
+If it finds two, the method prints the information about one of them (calling the toString() method).
+
+If not, it prints something like "there are no equal cars in this lot".
+
+
+
+
+
+Cerinte:
+
+reapectare: folosire engleza, identare, code conventions, javadoc [se scad pana la 2 puncte in functie de lipsuri]

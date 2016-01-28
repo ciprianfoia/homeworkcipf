@@ -1,0 +1,30 @@
+Write a program tells if a person or a family is happy. Model a Person class with a name which is never happy, then add subclasses for Man, Woman.
+ A Family is made of a hustband and a wife and they could have one or many children.
+ A happy family is a family where every person in it is happy.
+
+A man is happy if he has good grades and a play station (when age under 18), when he has a girlfriend or married and coolest gadgets (when over 18).
+
+A woman is happy if she has good grades and girlfriends (under age 18), has boyfriend and a career (age 18-30), if she is married and has kid/s (over age 30).
+
+End goal: model with OOP and use polymorphism to create clear and clean code. Consider having an idenity/name for each entity.
+ The family takes the identity of both husband and wife combined.
+
+1. create the appropriate abstractions - whicht are those?
+
+2. consider each abstraction and add relevant data/instance variables and operations/methods - which are those? consider is-a(inheritance) vs has-a(association)
+
+3. create the necessary constructors for each class
+
+4. create an application which creates multiple persons, creates families and add kids to them.
+ In the end scan through all families and check if it's a happy family and then check every single person if it is happy or not (single person has age over 18!, so kids excluded);
+  hint: make use of polymorphism while scanning through.
+
+
+
+
+
+Cerinte:
+
+respectare: principii OOP
+
+reapectare: folosire engleza, identare, code conventions, javadoc [se scad pana la 2 puncte in functie de lipsuri]
